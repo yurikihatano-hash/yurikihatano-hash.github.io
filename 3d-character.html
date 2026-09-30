@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An angel-inspired 3D character by Yuriki Hatano for QUT KNB205: concept, sculpting, retopology, texturing, rigging and final renders.">
+    <meta name="theme-color" content="#0a0a0a">
+    <title>3D Character — Yuriki Hatano</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/knb205-final-render.jpg" as="image">
+    <link rel="stylesheet" href="styles.css?v=23">
+    <link rel="stylesheet" href="unreal-environment.css?v=3">
+    <link rel="stylesheet" href="production-detail.css?v=2">
+  </head>
+  <body class="environment-detail character-detail">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="detail-header">
+      <a class="wordmark" href="index.html#top" aria-label="Yuriki Hatano, home"><span class="wordmark-avatar"><img src="assets/webpage-avatar.jpg" alt=""></span><span class="wordmark-name">Yuriki Hatano</span></a>
+      <nav class="detail-nav" aria-label="Page navigation"><a href="index.html#profile">Profile</a><a href="index.html#work">Work</a><a href="index.html#capabilities">Capabilities</a><a href="index.html#contact">Contact</a></nav>
+    </header>
+
+    <main id="main">
+      <section class="detail-hero" aria-labelledby="detail-title">
+        <img src="assets/knb205-final-render.jpg" alt="Completed stylised 3D character in an airborne pose, with white hair, a black outfit and red-accented shoes" fetchpriority="high">
+        <div class="detail-hero-shade"></div>
+        <div class="detail-hero-content">
+          <p class="detail-kicker">KNB205 / Character Production / 2026</p>
+          <h1 id="detail-title">3D<br><span>Character.</span></h1>
+          <p class="detail-hero-caption">An angel-inspired character developed from sculpt through final pose and render.</p>
+        </div>
+        <span class="detail-hero-index" aria-hidden="true">02 / 03</span>
+      </section>
+
+      <div class="detail-meta" aria-label="Project details">
+        <div><span>Period</span><strong>Semester 1, 2026</strong></div>
+        <div><span>Context</span><strong>QUT / KNB205 coursework</strong></div>
+        <div><span>Workflow</span><strong>ZBrush / Autodesk Maya / Substance 3D Painter / Arnold</strong></div>
+      </div>
+
+      <section class="detail-section detail-intro" aria-labelledby="intro-title">
+        <p class="detail-section-id">01 / Overview</p>
+        <div>
+          <h2 id="intro-title">An angelic<br>figure in motion.</h2>
+          <p class="detail-lead">For KNB205, I developed a stylised character whose look draws on angelic imagery, especially the Seraphim, and took it from sculpt through final presentation.</p>
+          <p>The production moved between ZBrush, Maya and Substance 3D Painter: sculpting, rebuilding topology, unwrapping UVs, designing materials, creating a HumanIK rig and posing the finished character for rendered images.</p>
+        </div>
+      </section>
+
+      <section class="asset-overview" aria-labelledby="workflow-title">
+        <p class="detail-section-id">02 / Production workflow</p>
+        <h2 id="workflow-title">A connected<br><span>pipeline.</span></h2>
+        <p>The character's asymmetrical sculpt, graphic clothing and oversized silhouette made the transitions between modelling, materials and rigging especially important.</p>
+      </section>
+
+      <article class="asset-story" aria-labelledby="shape-title">
+        <div class="asset-story-copy">
+          <p class="detail-section-id">01 / Sculpt, topology and UVs</p>
+          <h3 id="shape-title">Building a<br>usable mesh.</h3>
+          <p>After sculpting in ZBrush, I rebuilt the asymmetrical character in Maya. The eyes, ears, hands and spaces between the fingers required particularly careful retopology. I reduced the heavy sculpt with ZBrush Decimation Master to keep the Maya workflow manageable, cleaned up n-gons and non-manifold geometry, then planned flatter UV islands for the graphics on the T-shirt.</p>
+        </div>
+        <figure>
+          <img src="assets/knb205-render-3.jpg" alt="Final render of the stylised character in a tucked airborne pose, with graphic black clothing and red-and-white shoes" loading="lazy">
+          <figcaption>01 / Final render from a second angle.</figcaption>
+        </figure>
+      </article>
+
+      <section class="detail-section" aria-labelledby="materials-title">
+        <p class="detail-section-id">03 / Materials and visual identity</p>
+        <div>
+          <h2 id="materials-title">Details with<br>a purpose.</h2>
+          <p>In Substance 3D Painter, I layered skin tones and subtle surface variation rather than using one flat colour. The white hair was given a reflective gold treatment to reinforce the angelic character concept.</p>
+          <p>The T-shirt includes YHWH lettering, a cross, stars and galaxy imagery. Time constraints ruled out separate wings, so wing-inspired motifs carried the Seraphim reference onto the arms and legs. For the eyes, I adapted a base texture from Adobe Community Assets.</p>
+          <p>Back in Maya, I connected the separate texture sets to the relevant Arnold Standard Surface shaders to prepare the character for rendering.</p>
+        </div>
+      </section>
+
+      <section class="detail-section" aria-labelledby="rigging-title">
+        <p class="detail-section-id">04 / Rigging and expression</p>
+        <div>
+          <h2 id="rigging-title">Posed for<br>the frame.</h2>
+          <p>I built a HumanIK skeleton and created facial blend shapes for different expressions. Keeping every duplicated expression mesh in the Maya scene made the file too heavy, so I changed the workflow: add each target to the blend shape, archive it separately, then remove the duplicate from the working file.</p>
+          <p>The oversized shirt complicated shoulder-joint placement. I prioritised the silhouette for the final renders and refined skin weights where they visibly affected the poses. The result is presented as a posed character study, rather than as a claim of a production-ready animation rig.</p>
+        </div>
+      </section>
+
+      <figure class="detail-wide-image character-final-image">
+        <img src="assets/knb205-final-render.jpg" alt="Full final render showing the airborne character pose and complete costume against a grey backdrop" loading="lazy">
+        <figcaption>02 / Final posed character render.</figcaption>
+      </figure>
+
+      <section class="detail-next">
+        <p class="detail-section-id">Back to the portfolio</p>
+        <a href="index.html#work">Selected work <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+    <footer class="detail-footer"><span>© 2026 Yuriki Hatano</span><span>3D Character / KNB205</span><a href="index.html#top">Back to home ↑</a></footer>
+  </body>
+</html>
