@@ -245,6 +245,21 @@ const projects = {
         <li>Audience-facing content</li>
       </ul>
       <section class="dialog-case-section">
+        <p class="case-label">Promotional film</p>
+        <h3>The Last Flight</h3>
+        <div class="episode-player" aria-label="The Last Flight promotional film">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/GDEsTsPtk-A"
+            title="The Last Flight — promotional film"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <a class="video-link documentary-video-link" href="https://www.youtube.com/watch?v=GDEsTsPtk-A" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+      </section>
+
+      <section class="dialog-case-section">
         <p class="case-label">Instagram</p>
         <h3>The Last Flight on Instagram</h3>
         <div class="shorts-grid instagram-grid">
