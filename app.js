@@ -269,6 +269,12 @@ const projects = {
             </div>
             <a class="video-link" href="https://www.instagram.com/p/Dd6ezLrz4Md/" target="_blank" rel="noopener noreferrer">View on Instagram ↗</a>
           </article>
+          <article class="video-card">
+            <div class="shorts-embed instagram-embed">
+              <iframe src="https://www.instagram.com/p/DeTWPS0vovs/embed/" title="The Last Flight Instagram video" loading="lazy" scrolling="no" allowfullscreen></iframe>
+            </div>
+            <a class="video-link" href="https://www.instagram.com/p/DeTWPS0vovs/" target="_blank" rel="noopener noreferrer">View on Instagram ↗</a>
+          </article>
         </div>
       </section>
     `
